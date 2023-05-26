@@ -1,0 +1,80 @@
+h1 {
+  max-width: 45rem; 
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+
+main {
+  max-width: 45rem; 
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+.container {
+    width: 5rem;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  label {
+    max-width: 75ch;
+    margin-top: 5px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+#roleInput {
+  max-width: 44rem;
+}
+  
+.checkbox-container input[type='checkbox'] {
+  vertical-align:middle;
+  max-width: 2em;
+  margin: 1em;
+}
+
+#termsCheckbox {
+  vertical-align: top;
+  display:inline-block;
+  align-items:flex-start;
+  margin: 0;
+}
+  
+  p {
+    overflow: hidden;
+    max-width: 75ch;
+    max-width: 45rem; 
+    margin: 0 auto;
+    padding: 2px;
+    display: flex;
+  }
+   
+  input {
+    display: block;
+    width: 15rem;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  button {
+    display: block;
+    width: 15em;
+    margin-top: 1em;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  

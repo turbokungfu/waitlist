@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onboarding Waitlist</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' http://localhost:3000">
+
+ 
+</head>
+<body>
+  <header>
+    <h1>Join the Journalocity Waitlist</h1>
+    <p>learn more <a href="/more.html" target="_blank">here</a></p>
+    <p>Please share this with your friends and colleagues!</p>
+  </header>
+
+  <main>
+    <form id="waitlistForm">
+      <div class="input-group">
+      <label for="nameInput">Your Name:</label>
+      <input type="text" id="nameInput" placeholder="Your Name" required>
+    </div>
+
+      <div class="input-group">
+      <label for="emailInput">Your Email:</label>
+      <input type="email" id="emailInput" placeholder="Your Email" required>
+    </div>
+      
+      <p>For the 'preferred role', examples are 'customer' or 'journalist', but if you'd like to participate in this venture in any other capacity, please let me know. I know that marketing, legal, business and technology expertise will be required in this venture.</p>
+      <div class="input-group">
+      <label for="roleInput">Preferred Role:</label>
+      <textarea id="roleInput" placeholder="Preferred Role" rows="14"  wrap="soft"   required></textarea>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="termsCheckbox">
+      <label for="termsCheckbox" style="word-wrap:break-word">I agree to the <a href="/terms-and-conditions.html" target="_blank">terms and conditions</a></label>
+    </div>
+    
+
+      <button type="submit">Join Waitlist</button>
+      <p id="message"></p>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2023 Journalocity llc. All rights reserved.
+  </footer>
+
+
+  <script src="/script.js"></script>
+
+</body>
+
+
+
+</html>
