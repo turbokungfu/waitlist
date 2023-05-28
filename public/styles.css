@@ -1,16 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  color: #333;
+}
+
+
+
 h1 {
   max-width: 45rem; 
     margin: 0 auto;
     padding: 20px;
-    display: flex;
+
 }
 
+#title {
+ text-align: center;
+}
 
 main {
   max-width: 45rem; 
     margin: 0 auto;
     padding: 20px;
-    display: flex;
 }
 
 .container {
@@ -47,6 +60,17 @@ main {
   align-items:flex-start;
   margin: 0;
 }
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+section {
+  margin-bottom: 2em;
+}
   
   p {
     overflow: hidden;
@@ -77,4 +101,18 @@ main {
     color: white;
     border: none;
   }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
   
