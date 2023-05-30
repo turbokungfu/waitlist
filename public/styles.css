@@ -5,10 +5,11 @@ body {
   margin: 0;
   max-width: 100%;
   color: #333;
+  background-color: rgb(244, 240, 220);
 }
 
 #waitlist{
-  background-color: rgb(244, 240, 220);
+ 
 }
 
 .waitlistHeader {
@@ -17,7 +18,9 @@ body {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    padding-bottom: 0%;
+    padding: 0;
+    background-color: rgb(229, 181, 60);
+    border: .3rem solid black;
 }
 
 #logo{
@@ -40,6 +43,28 @@ main {
     padding: 20px;
 }
 
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 0;
+  margin-top: .5rem;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: .5rem;
+  margin-top: .3rem;
+}
+
+h3 {
+  text-align: left;
+  margin: 0;
+  line-height: 125%;
+  margin-left: 1rem;
+}
+.color {
+  color: rgb(37, 37, 170);
+  text-align: center;
+}
 .container {
     width: 5rem;
     margin: 0 auto;
@@ -69,19 +94,11 @@ main {
 }
 
 #termsCheckbox {
-
   display:inline-block;
   align-items:flex-start;
   margin: 0;
 }
 
-h1 {
-  font-size: 1.5em;
-}
-
-h2 {
-  font-size: 1.2em;
-}
 
   
   p {
