@@ -33,6 +33,11 @@ body {
 }
 
 
+.spanRed {
+  color: red;
+  font-weight: bold;
+}
+
 #title {
  text-align: center;
 }
